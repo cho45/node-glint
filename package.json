@@ -1,0 +1,15 @@
+{
+  "name": "node-glint",
+  "version": "0.0.1",
+  "description": "Setup temporary (for test) tcp server with random port number like Test::TCP (Perl), Glint (Ruby).",
+  "main": "lib/glint.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "tcp",
+    "test"
+  ],
+  "author": "cho45",
+  "license": "BSD"
+}
