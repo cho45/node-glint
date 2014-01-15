@@ -22,7 +22,7 @@ glint(
 		});
 	},
 
-	function (server, error) {
+	function (error, server) {
 		if (error) throw error;
 
 		var s = net.connect(server.port, function () {
